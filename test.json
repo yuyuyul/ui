@@ -1,0 +1,16 @@
+{
+  "items": [{
+    "item_type": "APP 템플릿 타입(string)",
+    "id": "커리큘럼 아이디(integer)",
+    "title": "영상 제목(string)",
+    "summary": "영상 소개(string)",
+    "company": {
+      "id": "회사 아이디(integer)",
+      "name": "회사 이름(string)",
+      "logo": "회사 로고(string)",
+      "industry": "회사 산업군(string)"
+    },
+    "file_url": "파일 Download URL(string)",
+    "payment": "결제 여부(bool)"
+  }]
+}
