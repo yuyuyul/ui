@@ -1,0 +1,23 @@
+{
+  "data": {
+    "company": {
+      "premium_user": true,
+      "industry": "게임",
+      "type": "중견기업",
+      "employees": 348,
+      "recruitment": {
+        "count": 3,
+        "items": [
+          {
+            "title": "모바일 게임 해외(영어권)사업 PM",
+            "d_day": "D-41"
+          },
+          {
+            "title": "게임 운영",
+            "d_day": "D-41"
+          }
+        ]
+      }
+    }
+  }
+}

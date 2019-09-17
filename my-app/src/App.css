@@ -1,0 +1,62 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  text-align: left;
+}
+a {
+  text-decoration: none;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #e8e9eb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.company_basic_info{position:relative; width: 80%;}.company_basic_info .basic_info_item{position:relative;box-sizing:border-box;width:100%;min-height:48px;padding-left:58px}.company_basic_info .ico_industry,.company_basic_info .ico_company_shape,.company_basic_info .ico_employees,.company_basic_info .ico_establish{background-repeat:no-repeat;background-position:left top;background-size:48px 48px}.company_basic_info .ico_industry{background-image:url("https://jpassets.jobplanet.co.kr/production/uploads/material/media/97/ic_companyinfo_industry_xlarge.svg")}.company_basic_info .ico_company_shape{background-image:url("https://jpassets.jobplanet.co.kr/production/uploads/material/media/98/ic_companyinfo_type_xlarge.svg")}.company_basic_info .ico_employees{background-image:url("https://jpassets.jobplanet.co.kr/production/uploads/material/media/95/ic_companyinfo_employees_xlarge.svg")}.company_basic_info .ico_establish{background-image:url("https://jpassets.jobplanet.co.kr/production/uploads/material/media/96/ic_companyinfo_establish_xlarge.svg")}.company_basic_info .basic_info_sec{background-color:#fff;border-radius:3px;box-sizing:border-box;padding:32px}.basic_info_list li{float:left;width:25%;box-sizing:border-box}.basic_info_list:after{content:"";display:block;clear:both}.info_btn_group{margin-top:24px;text-align:center}.basic_info_more{margin-top:32px;border-top:1px solid #e5e6e9}.basic_info_more>li:first-child{margin-top:24px;margin-bottom:14px}.basic_info_more>li:last-child{margin-bottom:0}.info_item_more{margin-bottom:14px;position:relative;box-sizing:border-box;padding-left:83px;font-size:16px;line-height:26px;color:#323438;word-break:keep-all}.info_item_more .item_subject{position:absolute;top:0;left:0;color:#85878c;font-weight:normal}.info_item_more .link_to{text-decoration:underline}.info_item_more .sec_left{display:inline-block;width:54px;margin-right:10px}.info_description{width:100%;box-sizing:border-box;font-size:13px;color:#a4a6ad}.info_item_subject{width:100%;box-sizing:border-box;padding-right:16px;line-height:21px;margin-bottom:4px;display:block;font-weight:700;font-size:17px;color:#323438;word-break:break-all}.ico_employees .info_item_subject{word-break:break-word}.ico_company_shape .info_item_subject{word-break:keep-all}.btn_info_more,.btn_info_shorten{padding-right:24px;font-size:15px;color:#00c362}.info_btn_group .ic_arrow_light_down,.info_btn_group .ic_arrow_light_up{background-position:right 7px}
+.company_basic_info .ico_industry, .company_basic_info .ico_company_shape, .company_basic_info .ico_employees, .company_basic_info .ico_establish {
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 48px 48px;
+}
+.company_basic_info .ico_industry {
+  background-image: url(https://jpassets.jobplanet.co.kr/production/uploads/material/media/97/ic_companyinfo_industry_xlarge.svg);
+}
+.company_basic_info .ico_company_shape {
+  background-image: url(https://jpassets.jobplanet.co.kr/production/uploads/material/media/98/ic_companyinfo_type_xlarge.svg);
+}
+.company_basic_info .ico_employees {
+  background-image: url(https://jpassets.jobplanet.co.kr/production/uploads/material/media/95/ic_companyinfo_employees_xlarge.svg);
+}
+.hiring_card{display:block;box-sizing:border-box;width:100%;padding:32px;margin-bottom:20px;background-color:#fff;border-radius:3px;cursor:pointer}.hiring_card:hover{text-decoration:none;box-shadow:0 3px 6px 0 rgba(0,0,0,0.15)}.hiring_card a:hover{text-decoration:none}.hiring_card .row:first-child{margin-bottom:16px}.hiring_card .row .title{display:inline-block;margin-right:12px;vertical-align:middle;font-size:20px;line-height:30px;height:30px;font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#323438}.hiring_card .row .title:hover{text-decoration:none}.hiring_card .row .jply_rounded_xs{vertical-align:middle; color:#61dafb;}.hiring_card .tag_group,.hiring_card .source{vertical-align:middle;display:inline-block;font-size:15px;color:#a4a6ad}.hiring_card .tag_group{margin-right:8px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.hiring_card .tag_group .tag_text{display:inline}
+.company_basic_info .basic_info_sec.bg_gray {background-color: #e8e9eb;}
